@@ -3,6 +3,7 @@
     package="com.example.emissionpoints">
 
     <application
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,6 +12,9 @@
         android:theme="@style/Theme.EmissionPoints">
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
