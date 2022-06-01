@@ -5,3 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
+<TextView
+        android:id="@+id/textView2"
+        android:layout_width="243dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        android:text="Number Of Questions"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="74dp" />
