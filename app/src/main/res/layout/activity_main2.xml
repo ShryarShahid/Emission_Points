@@ -41,3 +41,6 @@ NoHu<?xml version="1.0" encoding="utf-8"?>
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="Option 3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
